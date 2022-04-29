@@ -10,10 +10,6 @@ import org.springframework.jdbc.core.RowMapper;
 
 import com.springboot.my.bank.models.Branch;
 
-/**
- * @author Leona
- *
- */
 public class BranchMapper implements RowMapper<Branch> {
 
 	@Override

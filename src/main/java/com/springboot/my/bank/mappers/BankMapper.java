@@ -10,10 +10,6 @@ import org.springframework.jdbc.core.RowMapper;
 
 import com.springboot.my.bank.models.Bank;
 
-/**
- * @author Leona
- *
- */
 public class BankMapper implements RowMapper<Bank> {
 
 	@Override

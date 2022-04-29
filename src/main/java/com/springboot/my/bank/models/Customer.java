@@ -3,10 +3,6 @@
  */
 package com.springboot.my.bank.models;
 
-/**
- * @author Leona
- *
- */
 public class Customer {
 	private String name;
 	private Address address;

@@ -5,10 +5,6 @@ package com.springboot.my.bank.mappers;
 
 import com.springboot.my.bank.models.Address;
 
-/**
- * @author Leona
- *
- */
 public class AddressHelper {
 
 	public static Address processAddress(String address) {

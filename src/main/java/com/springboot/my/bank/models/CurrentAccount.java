@@ -3,10 +3,6 @@
  */
 package com.springboot.my.bank.models;
 
-/**
- * @author Leona
- *
- */
 public class CurrentAccount extends BankAccount {
 
 	public CurrentAccount() {

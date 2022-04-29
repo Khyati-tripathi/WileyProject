@@ -7,10 +7,6 @@ import java.sql.SQLException;
 
 import com.springboot.my.bank.models.Bank;
 
-/**
- * @author Leona
- *
- */
 public interface BankDAO {
 
 	public Boolean createBank(Bank bank) throws SQLException;

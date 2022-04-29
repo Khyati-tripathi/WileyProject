@@ -8,10 +8,6 @@ import java.util.List;
 
 import com.springboot.my.bank.models.Transaction;
 
-/**
- * @author Leona
- *
- */
 public interface TransactionDAO {
 
 	public Boolean deposit(Double amount, Integer accNo) throws SQLException;

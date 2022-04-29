@@ -3,10 +3,6 @@
  */
 package com.springboot.my.bank.models;
 
-/**
- * @author Leona
- *
- */
 public abstract class BankAccount {
 	private Integer accountNo;
 	private Integer customerId;
@@ -18,7 +14,7 @@ public abstract class BankAccount {
 	 * 
 	 */
 	public BankAccount() {
-		
+
 	}
 
 	/**

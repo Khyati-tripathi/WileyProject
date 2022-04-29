@@ -3,10 +3,6 @@
  */
 package com.springboot.my.bank.dao;
 
-/**
- * @author Leona
- *
- */
 public interface ReversalRequestsDAO {
 
 //	public Boolean createRequest() throws SQLException;

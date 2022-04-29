@@ -5,9 +5,6 @@ public class Employee {
 	private String name;
 	private String branchCode;
 
-	/**
-	 * 
-	 */
 	public Employee() {
 	}
 

@@ -10,10 +10,6 @@ import com.springboot.my.bank.models.Admin;
 import com.springboot.my.bank.models.Customer;
 import com.springboot.my.bank.models.Transaction;
 
-/**
- * @author Leona
- *
- */
 public interface AdminDAO {
 
 	public List<Admin> getAdminById(Integer adminId) throws SQLException;

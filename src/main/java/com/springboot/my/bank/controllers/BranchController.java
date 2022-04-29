@@ -22,11 +22,6 @@ import com.springboot.my.bank.models.Branch;
 import com.springboot.my.bank.models.Customer;
 import com.springboot.my.bank.services.BranchService;
 
-/**
- * @author Leona
- *
- */
-
 @RestController
 @RequestMapping("/branches")
 public class BranchController {

@@ -13,11 +13,6 @@ import com.springboot.my.bank.dao.BankAccountDAO;
 import com.springboot.my.bank.mappers.SavingsAccountMapper;
 import com.springboot.my.bank.models.BankAccount;
 
-/**
- * @author Leona
- *
- */
-
 @Repository("bankAccountRepo")
 public class BankAccountRepository implements BankAccountDAO {
 	@Autowired
@@ -51,17 +46,18 @@ public class BankAccountRepository implements BankAccountDAO {
 		return jdbcTemplateObject.queryForObject(sql, new Object[] { accNo }, new SavingsAccountMapper());
 	}
 
+	@Override
 	@SuppressWarnings("deprecation")
 	public BankAccount getAccountDetailsById(Integer customerId) {
 		String sql = "SELECT * FROM bank_accounts WHERE customer=?";
 		return jdbcTemplateObject.queryForObject(sql, new Object[] { customerId }, new SavingsAccountMapper());
 	}
-	
+
+	@Override
 	public Boolean deleteBankAccount(Integer accNo) {
 		String sql = "DELETE FROM bank_accounts WHERE accNo=?";
-		return jdbcTemplateObject.update(sql,accNo)>0;
+		return jdbcTemplateObject.update(sql, accNo) > 0;
 
 	}
-
 
 }

@@ -5,10 +5,6 @@ package com.springboot.my.bank.models;
 
 import java.util.Objects;
 
-/**
- * @author Leona
- *
- */
 public class Bank implements Comparable<Bank> {
 	private String bankCode;
 	private String bankName;

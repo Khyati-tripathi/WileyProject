@@ -7,10 +7,6 @@ import org.springframework.jdbc.core.RowMapper;
 
 import com.springboot.my.bank.models.Customer;
 
-/**
- * @author Leona
- *
- */
 public class CustomerMapper implements RowMapper<Customer> {
 
 	@Override

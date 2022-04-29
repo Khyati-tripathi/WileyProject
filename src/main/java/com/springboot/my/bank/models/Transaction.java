@@ -5,10 +5,6 @@ package com.springboot.my.bank.models;
 
 import java.sql.Timestamp;
 
-/**
- * @author Leona
- *
- */
 public class Transaction {
 	private Integer accountNo;
 	private TransactionType type;

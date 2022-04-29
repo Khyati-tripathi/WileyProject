@@ -18,11 +18,6 @@ import com.springboot.my.bank.models.Admin;
 import com.springboot.my.bank.models.Customer;
 import com.springboot.my.bank.models.Transaction;
 
-/**
- * @author Leona
- *
- */
-
 @Repository("adminRepo")
 public class AdminRepository implements AdminDAO {
 	@Autowired

@@ -3,10 +3,6 @@
  */
 package com.springboot.my.bank.models;
 
-/**
- * @author Leona
- *
- */
 public class SavingsAccount extends BankAccount {
 	static final double RATEOFINTEREST = 3.0;
 

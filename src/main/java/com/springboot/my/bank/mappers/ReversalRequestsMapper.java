@@ -10,10 +10,6 @@ import org.springframework.jdbc.core.RowMapper;
 
 import com.springboot.my.bank.models.ReversalRequests;
 
-/**
- * @author Leona
- *
- */
 public class ReversalRequestsMapper implements RowMapper<ReversalRequests> {
 
 	@Override

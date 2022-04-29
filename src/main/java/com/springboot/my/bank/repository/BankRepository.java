@@ -13,11 +13,6 @@ import com.springboot.my.bank.dao.BankDAO;
 import com.springboot.my.bank.mappers.BankMapper;
 import com.springboot.my.bank.models.Bank;
 
-/**
- * @author Leona
- *
- */
-
 @Repository("bankRepo")
 public class BankRepository implements BankDAO {
 

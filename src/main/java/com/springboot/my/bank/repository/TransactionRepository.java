@@ -14,11 +14,6 @@ import com.springboot.my.bank.dao.TransactionDAO;
 import com.springboot.my.bank.mappers.TransactionMapper;
 import com.springboot.my.bank.models.Transaction;
 
-/**
- * @author Leona
- *
- */
-
 @Repository("transactionRepo")
 public class TransactionRepository implements TransactionDAO {
 

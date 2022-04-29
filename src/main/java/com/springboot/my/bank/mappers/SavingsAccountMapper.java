@@ -8,14 +8,9 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.springboot.my.bank.models.AccountType;
 import com.springboot.my.bank.models.BankAccount;
 import com.springboot.my.bank.models.SavingsAccount;
 
-/**
- * @author Leona
- *
- */
 public class SavingsAccountMapper implements RowMapper<BankAccount> {
 
 	@Override

@@ -10,10 +10,6 @@ import org.springframework.jdbc.core.RowMapper;
 
 import com.springboot.my.bank.models.Employee;
 
-/**
- * @author Leona
- *
- */
 public class EmployeeMapper implements RowMapper<Employee> {
 
 	@Override
